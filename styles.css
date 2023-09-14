@@ -30,7 +30,7 @@ body {
 
 .right-page {
     flex: 6;
-    background-color: rgb(250, 250, 250);
+    background-color: rgb(245, 245, 245);
 }
 
 .headers {
@@ -38,11 +38,21 @@ body {
 }
 
 .forms {
+    box-shadow: 5px 5px 10px grey;
     background-color: white;
 }
 
-fieldset {
+.forms-contents {
+    padding: 40px 0 40px 40px;
+}
+
+.forms fieldset {
     border: none;
+    padding: 0;
+}
+
+.forms fieldset legend{
+    margin-bottom: 20px;
 }
 
 .right-page-bottom-contents {
